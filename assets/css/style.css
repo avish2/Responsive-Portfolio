@@ -275,6 +275,17 @@ h4 {
 	width: 200px;
 	color: white;
 }
+.footer {
+		width: 100%;
+    	background-color: #6f6a6a;
+    	text-align: center;
+    	color: white;
+    	padding: 50px;
+    	border-top: 5px solid #4aaaa5;
+    	display: block;
+    	clear: both;
+    	height: 20px;}
+
 @media screen and (max-width: 980px) {
 	div.wrapper {
 		display: grid;
@@ -285,8 +296,17 @@ h4 {
 		display:block;
 		margin-left: 10%;
 		margin-right: 10%;
-		margin-top: -1770px;
+		margin-top: -700px;
 		position: initial;
+		margin-bottom: 50px;
+	}
+	.wrapper3 {
+		display: grid;
+		width: 40%;
+	}
+	#wrapper4 {
+		display: grid;
+		width: 40%;
 	}
 }
 
@@ -335,15 +355,22 @@ h4 {
 		margin-left: 10%;
 		margin-right: 10%;
 		margin-top: 60px;
+		margin-bottom: 50px;
 	}
 	#wrapper4 {
 		width: 90%;
 		margin-left: 5%;
 		margin-right: 5%;
 		margin-top: 50px;
-		margin-bottom: 0px;
+		margin-bottom: 50px;
 	}
-
+	.wrapper3 {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -401,22 +428,6 @@ h4 {
 	}
 	#content {
 		vertical-align: center;
-
-	}
-	#footer {
-		position: relative;
-  		bottom: 0;
-  		margin-top: 1800px;
-	}
-	#footer2 {
-		position: relative;
-  		bottom: 0;
-  		margin-top: 1800px;
-	}
-	#footer3 {
-		position: relative;
-  		bottom: 0;
-  		margin-top: 1400px;
 	}
 	#sociallinks {
 		margin:0px;
@@ -426,5 +437,13 @@ h4 {
 		margin-left: 10%;
 		margin-right: 10%;
 		margin-top: 60px;
+		margin-bottom: 50px;
 	}
-
+	.portimages {
+		margin-left: 25%;
+		margin-right: 20%;
+	}
+	h3 {
+		margin-left: 25%;
+		margin-right: 20%;
+	}
